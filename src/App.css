@@ -1,0 +1,35 @@
+#root {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#quote-box {
+  width: 90vw;
+  height: 35vh;
+}
+.headline {
+  font-family: didot, sans-serif;
+  font-weight: bold;
+  height: 20%;
+}
+.card-main {
+  height: 80%;
+}
+.foot {
+  height: 30%;
+}
+.bond-quote {
+  height: 70%;
+  font-family: monospace;
+}
+@media screen and (max-width: 550px) {
+  #quote-box {
+    height: 45vh;
+    transform: scale(0.8);
+  }
+  .card-main {
+    font-size: 0.9rem;
+  }
+}
