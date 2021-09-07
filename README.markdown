@@ -2,9 +2,9 @@
 
 James Bond is a sly and charming secret agent with a dirty mind. Here is a collection of some of the sleaziest quotes from Bond movies. 
 
-React.js application with Bootstrap, using hooks to retrieve random quotes from James Bond movies in an object file. 
+React.js application with Bootstrap, using hooks to retrieve random quotes from James Bond movies in an object file and button to tweet quote. 
 
 [See in action on Heroku!](https://random-bond-innuendos.herokuapp.com/)
 
-
+![random bond quotes screenshot](https://i.imgur.com/eiqQruo.png)
 
