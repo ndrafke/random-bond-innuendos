@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 function SleazyBond() {
-
+  // Bank of random quotes:
   const quotes= [
     {quote: "Honey: Are you looking for shells too?   Bond: No, I'm just looking.", author: "- Dr. No (1962)"},
     {quote: "Tatiana: Thank you, but I think my mouth is too big.   Bond: No, it's the right size... for me, that is.", author: "- From Russia With Love (1963)"},
@@ -27,14 +27,14 @@ useEffect(() =>{
 const getIndex = (list) => {
   return Math.floor(Math.random() * list)
 } 
-
+// Fetch Random Quote:
 const newQuote = () => {
 let randomIndex = getIndex(quotes.length);
 setQuote(quotes[randomIndex].quote);
 setAuthor(quotes[randomIndex].author);
 }
 
-
+// Quote Card:
 const Content = (props) => {  
   return (
     <div>
@@ -47,7 +47,7 @@ const Content = (props) => {
     </div>
   );
 }
-
+// Twitter share Button:
 const TwitterLink = (props) => {
   return (
      <a id="tweet-quote" className="btn btn-primary" href={"https://twitter.com/intent/tweet?text=" + props.quote + " -" + props.author} target="_blank">Tweet!</a>
